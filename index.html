@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Critical transitions and early warnings in global forest</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs-2.14/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <script src="libs/fabric-4.3.1/fabric.min.js"></script>
+    <link href="libs/xaringanExtra-scribble-0.0.1/scribble.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-scribble-0.0.1/scribble.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30,"palette":[]}) })</script>
+    <link rel="stylesheet" href="css/leo.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class:  center, middle
+background-image: url("Figures/CADIClogo.png")
+background-size: 120px
+background-position: 5% 5%
+
+
+
+# Critical transitions and early warnings in global forest
+## [Leonardo A. Saravia](https://lsaravia.github.io)
+###  National Council for Scientific and Technical Research [ CONICET ]
+###  Austral Center for Scientific Research [CADIC]  
+#### 2022/10/04
+.small[ Slides available at https://lsaravia.github.io/TipPoints2022]
+
+---
+class:  center, middle, inverse
+background-image: url(Figures/Deforestation.jpg)
+background-size: contain
+
+---
+class:  center, middle, inverse
+background-image: url(Figures/DeforestationDark.jpg)
+background-size: contain
+
+# Global Forest as a Complex systems
+
+--
+
+
+## Complex systems: emergent behavior
+--
+
+### Could not be explained by the behavior of their components
+
+--
+
+### Global forest: these methods can be applied to forests at any place on the earth
+
+???
+
+* I think about forest as a complex system and I talk about global forest
+* Because these methods to determine critical can be applied to any place on earth
+* Whicht is the main characteristic of complex systems?
+* It is emergent behavior 
+* the system could react in ways that are not easily predicted by the behavior of the components
+
+---
+class:  center, middle, inverse
+
+## Critical transitions
+
+--
+### Sudden change of the state of the system
+
+--
+### Very large areas provides a better scale to detect critical transitions 
+
+--
+### we started with a simple model with two states
+
+
+???
+
+One of these emergent phenomena are critical transitions 
+which produces a sudden change of the state of the system
+is important to mention that ...
+
+
+---
+class:  center, middle, inverse
+
+## 1st Order and 2nd Order Critical transitions
+
+.center[
+&lt;img src="Figures/CritTrans12ord.png" width="100%"&gt;
+]
+
+---
+class:  center, middle, inverse
+
+## 1st Order --&gt;  2nd Order 
+
+.pull-left[
+&lt;img src="Figures/VilaMartin1ord.png" width="100%"&gt;
+]
+
+--
+.pull-right[
+&lt;img src="Figures/VilaMartin2ord.png" width="100%"&gt;
+]
+
+.small[ Eluding catastrophic shifts - P. Villa Martín https://doi.org/10.1073/pnas.1414708112]
+
+
+---
+class:  center, middle, inverse
+
+## 1st Order --&gt;  2nd Order 
+
+--
+### Demographic noise
+
+--
+### Short dispersal
+
+--
+### Spatial heterogeneity
+
+--
+### Dimensionality 
+
+&gt; 1D Systems are extremely sensitive 
+
+&gt; 2D Systems are sensitive 
+
+&gt; 3D Systems less sensitive 
+
+---
+class:  center, middle, inverse
+
+## A vegetation model for 2nd order transitions 
+
+
+---
+## A vegetation model for 2nd order transitions 
+
+* Two states **Forest** and **Non-forest** 
+
+--
+.center[
+&lt;img src="Figures/ForestModelDelta.png" width="60%"&gt;
+]
+
+
+--
+* `\(\lambda\)` is the growth and dispersal rate 
+
+.center[
+&lt;img src="Figures/ForestModelLambda.png" width="59%"&gt;
+]
+
+
+---
+## Model dynamics for different `\(\lambda\)` 
+
+* We fixed death rate `\(\delta = 1\)` 
+
+--
+
+.center[
+&lt;img src="Figures/Lambda3-1.5_100.gif" width="70%"&gt;
+]
+
+--
+.pull-left[ 
+### There are two transitions
+
+]
+
+--
+.pull-right[
+#### 1) Connected to fragmented forest
+#### 2) Forest to non-forest
+]
+
+???
+In this simple forest model we have forest and non-forest or empty sites
+
+The state of the system changes with a control parameterr the growth rate called lambda
+
+We have two possible state changes for the system, forest survival, forest extinction
+and a third state that is fragmented forest.
+
+So we start from lambda 3 to 2.5, we are simulating that the forest can grow less, 
+then from 2.5 to 2.0, the unexpected change is from 2.0 to 1.5 because the system
+collapses and the forest go extinct.
+
+---
+class:  center, inverse
+
+## Largest patch dynamics 
+
+
+&lt;img src="Figures/MaxPatchSizeLambda3.5-1.5.gif" width="80%"&gt;
+
+---
+class:  center, inverse
+
+## Largest patch fluctuations 
+
+&lt;img src="Figures/DeltaSmax3.5-1.5.gif" width="80%"&gt;
+
+???
+One way to detect the fragmentation transitions is to watch the fluctuations 
+of the largest patch, if the fluctuations are small we are far from the critical transitions
+if the fluctuations are large we are probabily near a critical point
+
+
+---
+
+background-image: url(Figures/JaguarFire.jpg)
+background-size: contain
+
+---
+class:  center, middle, inverse
+
+background-image: url(Figures/JaguarFireDark.jpg)
+background-size: contain
+
+# Critical Global Forest 
+
+---
+background-image: url(Figures/Saravia2018SciRep.png)
+background-size: contain
+
+class: center, bottom
+
+.small[&lt;https://www.nature.com/articles/s41598-018-36120-w&gt;]
+
+???
+
+We applied these ideas to continental regions around the globe
+---
+class:  center, middle
+
+## Early warnings of fragmentation 
+
+--
+
+### We use remote sensing data (MODIS Vegetation Continuous Field) 
+
+--
+
+### To calculate the fluctuations of the largest patch `\(RS_{max}\)` relative to the total forest area
+
+--
+
+### We defined big continental regions (greater than 10 millons Km²)
+
+--
+### We used different forest % thresholds to determine patch sizes 
+
+---
+class:  center, middle, inverse
+
+## Early warnings of fragmentation 
+
+--
+### A combination of spatial and temporal indicators is more reliable 
+
+--
+### When the forest its closer to a critical transition
+
+--
+### The size `\(RS_{max}\)` tends to get smaller
+
+--
+### Increase its variance
+
+--
+### The variation `\(\Delta RS_{max}\)` is biased towards lower values
+
+---
+## Largest patch dynamics
+
+.center[
+&lt;img src="Figures/RSmax_gt1e7_ByYearThreshold_facet.png" width="60%"&gt;
+]
+
+.small[
+The regions are AF1: Africa mainland, EUAS1: Eurasia mainland, NA1: North America mainland, SAST1: South America tropical and subtropical, SEAS1: Southeast Asia mainland
+]
+
+---
+class:  center, middle
+
+## Early warnings of fragmentation
+
+&lt;img src="Figures/TablaIndicadores.png" width="90%"&gt;
+
+
+---
+class:  center, middle
+
+## Regions near a critical transition 
+
+--
+### South America tropical and subtropical (SAST1)
+
+--
+### Southeast Asia mainland (SEAS1) 
+
+--
+### Africa mainland (AF1) met all criteria at least for one threshold
+
+--
+### these regions generally experience the biggest rates of deforestation with a significant increase in loss of forest
+
+
+---
+
+background-image: url(Figures/JaguarFire.jpg)
+background-size: contain
+
+---
+class:  center, middle, inverse
+
+background-image: url(Figures/JaguarFireDark.jpg)
+background-size: contain
+
+
+# What about multispecies communities?
+
+---
+class:  center, middle, inverse
+
+# What about multispecies communities?
+
+
+&lt;img src="Figures/Oikos2018.png" width="90%"&gt;
+
+.small[ https://dx.doi.org/10.1111/oik.04256]
+
+---
+class:  center, middle, inverse
+
+# What about multispecies communities?
+
+
+&lt;img src="Figures/DiversityCT.png" width="65%"&gt;
+
+
+---
+class:  center, middle, inverse
+
+# What about multispecies communities?
+
+
+&lt;img src="Figures/MultiDeltaSmax.png" width="80%"&gt;
+
+
+---
+class:  center, middle
+
+# Things to do 
+
+---
+class:  center, middle, inverse
+
+
+# Things to do
+
+--
+### Check the Power of the method models
+
+--
+## Fit forest dynamics with rain/temperature as control variable
+
+--
+### Could be applied to other vegetation types
+
+--
+### To smaller regions with higher resolutions sensors
+
+---
+class:  center, top
+
+## Ecology and Complex Systems Lab 
+
+.pull-left[
+
+&lt;img src="Figures/Ecomplex_logo.png" width="80%"&gt;
+
+&lt;a href="https://twitter.com/ecomplex_lab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false"&gt;Follow @ecomplex_lab&lt;/a&gt;&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+]
+
+
+.pull-right[
+
+[Leonardo Saravia [CADIC] ](https://www.researchgate.net/profile/Leonardo-Saravia)
+
+[Maria Piotto [UNC]]()
+
+[Iara Rodriguez [UNGS] ](https://www.researchgate.net/profile/Iara-Rodriguez-2)
+
+[Nicolas Velazco [UNLu]](https://www.researchgate.net/profile/Victor-Velazco)
+
+[Tomas Marina [CADIC]](https://www.researchgate.net/profile/Tomas-Marina)
+
+[Georgina Cordone [CENPAT]](https://www.researchgate.net/profile/Georgina-Cordone)
+
+[Santiago Doyle [UNGS]](https://www.researchgate.net/profile/Santiago-Doyle)
+
+[Vanesa Salinas [UNGS]](https://www.researchgate.net/profile/Vanesa-Salinas-2)
+
+[Fernando Momo[UNGS]](https://www.researchgate.net/profile/Fernando-Momo)
+]
+
+---
+class:  center, middle, inverse
+
+# The End 
+
+### Slides available at https://lsaravia.github.io/TipPoint2022
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+(function(time) {
+  var d2 = function(number) {
+    return ('0' + number).slice(-2); // left-pad 0 to minutes/seconds
+  },
+
+  time_format = function(total) {
+    var secs = Math.abs(total) / 1000;
+    var h = Math.floor(secs / 3600);
+    var m = Math.floor(secs % 3600 / 60);
+    var s = Math.round(secs % 60);
+    var res = d2(m) + ':' + d2(s);
+    if (h > 0) res = h + ':' + res;
+    return res;  // [hh:]mm:ss
+  },
+
+  slide_number_div = function(i) {
+    return document.getElementsByClassName('remark-slide-number').item(i);
+  },
+
+  current_page_number = function(i) {
+    return slide_number_div(i).firstChild.textContent;  // text "i / N"
+  };
+
+  var timer = document.createElement('span'); timer.id = 'slide-time-left';
+  var time_left = time, k = slideshow.getCurrentSlideIndex(),
+      last_page_number = current_page_number(k);
+
+  setInterval(function() {
+    time_left = time_left - 1000;
+    timer.innerHTML = ' ' + time_format(time_left);
+    if (time_left < 0) timer.style.color = 'red';
+  }, 1000);
+
+  slide_number_div(k).appendChild(timer);
+
+  slideshow.on('showSlide', function(slide) {
+    var i = slide.getSlideIndex(), n = current_page_number(i);
+    // reset timer when a new slide is shown and the page number is changed
+    if (last_page_number !== n) {
+      time_left = time; last_page_number = n;
+      timer.innerHTML = ' ' + time_format(time); timer.style.color = null;
+    }
+    slide_number_div(i).appendChild(timer);
+  });
+})(60000);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
